@@ -21,45 +21,45 @@ Note that the complete extraction-training-testing pipeline may take several hou
 
 | Experiment | Week | Model | Zenodo Deposition ID | DOI | 
 | ------------- | ------------- | ------------- | ------------- |
-| holdout | 0 | lr  | 1275035 | . |
-| holdout | 0 | rnn | 1275045 |  .  |
-| holdout | 0 | svm | 1275193 |  .  |
-| holdout | 0 | lstm | 1275041 |  . |
-| holdout | 1 | lr | 1275049 |  .  |
-| holdout | 1 | lstm | 1275055 |  .  |
-| holdout | 1 | rnn | 1275059 |  .  |
-| holdout | 1 | svm | 1275197 |  .  |
-| holdout | 2 | lr | 1275063 |  .  |
-| holdout | 2 | lstm | 1275071 |  .  |
-| holdout | 2 | rnn | 1275074 |  .  |
-| holdout | 2 | svm | 1275201 |  .  |
-| holdout | 3 | lr | 1275077 |  .  |
-| holdout | 3 | rnn | 1275081 |  .  |
-| holdout | 3 | lstm | 1275083 |  .  |
-| holdout | 3 | svm | 1275203 |  .  |
-| holdout | 4 | lr | 1275331 |  .  |
-| holdout | 4 | rnn | 1275335 |  .  |
-| holdout | 4 | lstm | 1275339 |  .  |
-| holdout | 4 | svm | 1275341 |  .  |
-| cv | 0 | lr | 1275087 |  .  |
-| cv | 0 | rnn | 1275091 |  .  |
-| cv | 0 | lstm | 1275095 |  .  |
-| cv | 0 | svm | 1275207 |  .  |
-| cv | 1 | lr | 1275101 |  .  |
-| cv | 1 | rnn | 1275103 |  .  |
-| cv | 1 | lstm | 1275107 |  .  |
-| cv | 1 | svm | 1275211 |  .  |
-| cv | 2 | lr | 1275113 |  .  |
-| cv | 2 | rnn | 1275119 |  .  |
-| cv | 2 | lstm | 1275121 |  .  |
-| cv | 2 | svm | 1275213 |  .  |
-| cv | 3 | lr | 1275129 |  .  |
-| cv | 3 | rnn | 1275133 |  .  |
-| cv | 3 | lstm | 1275135 |  .  |
-| cv | 3 | svm | 1275215 |  .  |
-| cv | 4 | lr | 1275345 |  .  |
-| cv | 4 | rnn | 1275347 |  .  |
-| cv | 4 | lstm | 1275351 | .  |
+| holdout | 0 | lr  | 1275035 |temp|
+| holdout | 0 | rnn | 1275045 | temp |
+| holdout | 0 | svm | 1275193 | temp |
+| holdout | 0 | lstm | 1275041 | temp|
+| holdout | 1 | lr | 1275049 | temp |
+| holdout | 1 | lstm | 1275055 | temp |
+| holdout | 1 | rnn | 1275059 | temp |
+| holdout | 1 | svm | 1275197 | temp |
+| holdout | 2 | lr | 1275063 | temp |
+| holdout | 2 | lstm | 1275071 | temp |
+| holdout | 2 | rnn | 1275074 | temp |
+| holdout | 2 | svm | 1275201 | temp |
+| holdout | 3 | lr | 1275077 | temp |
+| holdout | 3 | rnn | 1275081 | temp |
+| holdout | 3 | lstm | 1275083 | temp |
+| holdout | 3 | svm | 1275203 | temp |
+| holdout | 4 | lr | 1275331 | temp |
+| holdout | 4 | rnn | 1275335 | temp |
+| holdout | 4 | lstm | 1275339 | temp |
+| holdout | 4 | svm | 1275341 | temp |
+| cv | 0 | lr | 1275087 | temp |
+| cv | 0 | rnn | 1275091 | temp |
+| cv | 0 | lstm | 1275095 | temp |
+| cv | 0 | svm | 1275207 | temp |
+| cv | 1 | lr | 1275101 | temp |
+| cv | 1 | rnn | 1275103 | temp |
+| cv | 1 | lstm | 1275107 | temp |
+| cv | 1 | svm | 1275211 | temp |
+| cv | 2 | lr | 1275113 | temp |
+| cv | 2 | rnn | 1275119 | temp |
+| cv | 2 | lstm | 1275121 | temp |
+| cv | 2 | svm | 1275213 | temp |
+| cv | 3 | lr | 1275129 | temp |
+| cv | 3 | rnn | 1275133 | temp |
+| cv | 3 | lstm | 1275135 | temp |
+| cv | 3 | svm | 1275215 | temp |
+| cv | 4 | lr | 1275345 | temp |
+| cv | 4 | rnn | 1275347 | temp |
+| cv | 4 | lstm | 1275351 |temp |
 | cv | 4 | svm | 1275355 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275355.svg)](https://doi.org/10.5281/zenodo.1275355) |
 
 
