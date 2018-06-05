@@ -25,46 +25,46 @@ Each experiment also includes a persistent Digital Object Identifier which conta
 
 | Experiment | Week | Model | Zenodo Deposition ID | DOI | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| holdout | 0 | lr  | 1275035 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275035.svg)](https://doi.org/10.5281/zenodo.1275035) |
-| holdout | 0 | rnn | 1275045 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275045.svg)](https://doi.org/10.5281/zenodo.1275045) |
-| holdout | 0 | svm | 1275193 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275193.svg)](https://doi.org/10.5281/zenodo.1275193) |
-| holdout | 0 | lstm | 1275041 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275041.svg)](https://doi.org/10.5281/zenodo.1275041) |
-| holdout | 1 | lr | 1275049 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275049.svg)](https://doi.org/10.5281/zenodo.1275049) |
-| holdout | 1 | lstm | 1275055 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275055.svg)](https://doi.org/10.5281/zenodo.1275055) |
-| holdout | 1 | rnn | 1275059 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275059.svg)](https://doi.org/10.5281/zenodo.1275059) |
-| holdout | 1 | svm | 1275197 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275197.svg)](https://doi.org/10.5281/zenodo.1275197) |
-| holdout | 2 | lr | 1275063 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275063.svg)](https://doi.org/10.5281/zenodo.1275063) |
-| holdout | 2 | lstm | 1275071 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275071.svg)](https://doi.org/10.5281/zenodo.1275071) |
-| holdout | 2 | rnn | 1275074 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275074.svg)](https://doi.org/10.5281/zenodo.1275074) |
-| holdout | 2 | svm | 1275201 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275201.svg)](https://doi.org/10.5281/zenodo.1275201) |
-| holdout | 3 | lr | 1275077 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275077.svg)](https://doi.org/10.5281/zenodo.1275077) |
-| holdout | 3 | rnn | 1275081 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275081.svg)](https://doi.org/10.5281/zenodo.1275081) |
-| holdout | 3 | lstm | 1275083 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275083.svg)](https://doi.org/10.5281/zenodo.1275083) |
-| holdout | 3 | svm | 1275203 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275203.svg)](https://doi.org/10.5281/zenodo.1275203) |
-| holdout | 4 | lr | 1275331 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275331.svg)](https://doi.org/10.5281/zenodo.1275331) |
-| holdout | 4 | rnn | 1275335 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275335.svg)](https://doi.org/10.5281/zenodo.1275335) |
-| holdout | 4 | lstm | 1275339 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275339.svg)](https://doi.org/10.5281/zenodo.1275339) |
-| holdout | 4 | svm | 1275341 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275341.svg)](https://doi.org/10.5281/zenodo.1275341) |
-| cv | 0 | lr | 1275087 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275087.svg)](https://doi.org/10.5281/zenodo.1275087) |
-| cv | 0 | rnn | 1275091 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275091.svg)](https://doi.org/10.5281/zenodo.1275091) |
-| cv | 0 | lstm | 1275095 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275095.svg)](https://doi.org/10.5281/zenodo.1275095) |
-| cv | 0 | svm | 1275207 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275207.svg)](https://doi.org/10.5281/zenodo.1275207) |
-| cv | 1 | lr | 1275101 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275101.svg)](https://doi.org/10.5281/zenodo.1275101) |
-| cv | 1 | rnn | 1275103 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275103.svg)](https://doi.org/10.5281/zenodo.1275103) |
-| cv | 1 | lstm | 1275107 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275107.svg)](https://doi.org/10.5281/zenodo.1275107) |
-| cv | 1 | svm | 1275211 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275211.svg)](https://doi.org/10.5281/zenodo.1275211) |
-| cv | 2 | lr | 1275113 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275113.svg)](https://doi.org/10.5281/zenodo.1275113) |
-| cv | 2 | rnn | 1275119 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275119.svg)](https://doi.org/10.5281/zenodo.1275119) |
-| cv | 2 | lstm | 1275121 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275121.svg)](https://doi.org/10.5281/zenodo.1275121) |
-| cv | 2 | svm | 1275213 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275213.svg)](https://doi.org/10.5281/zenodo.1275213) |
-| cv | 3 | lr | 1275129 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275129.svg)](https://doi.org/10.5281/zenodo.1275129) |
-| cv | 3 | rnn | 1275133 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275133.svg)](https://doi.org/10.5281/zenodo.1275133) |
-| cv | 3 | lstm | 1275135 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275135.svg)](https://doi.org/10.5281/zenodo.1275135) |
-| cv | 3 | svm | 1275215 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275215.svg)](https://doi.org/10.5281/zenodo.1275215) |
-| cv | 4 | lr | 1275345 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275345.svg)](https://doi.org/10.5281/zenodo.1275345) |
-| cv | 4 | rnn | 1275347 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275347.svg)](https://doi.org/10.5281/zenodo.1275347) |
-| cv | 4 | lstm | 1275351 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275351.svg)](https://doi.org/10.5281/zenodo.1275351) |
-| cv | 4 | svm | 1275355 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275355.svg)](https://doi.org/10.5281/zenodo.1275355) |
+| holdout | 0 |LR | 1275035 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275035.svg)](https://doi.org/10.5281/zenodo.1275035) |
+| holdout | 0 | RNN | 1275045 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275045.svg)](https://doi.org/10.5281/zenodo.1275045) |
+| holdout | 0 | SVM | 1275193 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275193.svg)](https://doi.org/10.5281/zenodo.1275193) |
+| holdout | 0 | LSTM | 1275041 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275041.svg)](https://doi.org/10.5281/zenodo.1275041) |
+| holdout | 1 |LR| 1275049 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275049.svg)](https://doi.org/10.5281/zenodo.1275049) |
+| holdout | 1 | LSTM | 1275055 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275055.svg)](https://doi.org/10.5281/zenodo.1275055) |
+| holdout | 1 | RNN | 1275059 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275059.svg)](https://doi.org/10.5281/zenodo.1275059) |
+| holdout | 1 | SVM | 1275197 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275197.svg)](https://doi.org/10.5281/zenodo.1275197) |
+| holdout | 2 |LR| 1275063 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275063.svg)](https://doi.org/10.5281/zenodo.1275063) |
+| holdout | 2 | LSTM | 1275071 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275071.svg)](https://doi.org/10.5281/zenodo.1275071) |
+| holdout | 2 | RNN | 1275074 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275074.svg)](https://doi.org/10.5281/zenodo.1275074) |
+| holdout | 2 | SVM | 1275201 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275201.svg)](https://doi.org/10.5281/zenodo.1275201) |
+| holdout | 3 |LR| 1275077 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275077.svg)](https://doi.org/10.5281/zenodo.1275077) |
+| holdout | 3 | RNN | 1275081 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275081.svg)](https://doi.org/10.5281/zenodo.1275081) |
+| holdout | 3 | LSTM | 1275083 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275083.svg)](https://doi.org/10.5281/zenodo.1275083) |
+| holdout | 3 | SVM | 1275203 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275203.svg)](https://doi.org/10.5281/zenodo.1275203) |
+| holdout | 4 |LR| 1275331 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275331.svg)](https://doi.org/10.5281/zenodo.1275331) |
+| holdout | 4 | RNN | 1275335 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275335.svg)](https://doi.org/10.5281/zenodo.1275335) |
+| holdout | 4 | LSTM | 1275339 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275339.svg)](https://doi.org/10.5281/zenodo.1275339) |
+| holdout | 4 | SVM | 1275341 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275341.svg)](https://doi.org/10.5281/zenodo.1275341) |
+| cv | 0 |LR| 1275087 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275087.svg)](https://doi.org/10.5281/zenodo.1275087) |
+| cv | 0 | RNN | 1275091 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275091.svg)](https://doi.org/10.5281/zenodo.1275091) |
+| cv | 0 | LSTM | 1275095 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275095.svg)](https://doi.org/10.5281/zenodo.1275095) |
+| cv | 0 | SVM | 1275207 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275207.svg)](https://doi.org/10.5281/zenodo.1275207) |
+| cv | 1 |LR| 1275101 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275101.svg)](https://doi.org/10.5281/zenodo.1275101) |
+| cv | 1 | RNN | 1275103 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275103.svg)](https://doi.org/10.5281/zenodo.1275103) |
+| cv | 1 | LSTM | 1275107 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275107.svg)](https://doi.org/10.5281/zenodo.1275107) |
+| cv | 1 | SVM | 1275211 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275211.svg)](https://doi.org/10.5281/zenodo.1275211) |
+| cv | 2 |LR| 1275113 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275113.svg)](https://doi.org/10.5281/zenodo.1275113) |
+| cv | 2 | RNN | 1275119 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275119.svg)](https://doi.org/10.5281/zenodo.1275119) |
+| cv | 2 | LSTM | 1275121 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275121.svg)](https://doi.org/10.5281/zenodo.1275121) |
+| cv | 2 | SVM | 1275213 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275213.svg)](https://doi.org/10.5281/zenodo.1275213) |
+| cv | 3 |LR| 1275129 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275129.svg)](https://doi.org/10.5281/zenodo.1275129) |
+| cv | 3 | RNN | 1275133 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275133.svg)](https://doi.org/10.5281/zenodo.1275133) |
+| cv | 3 | LSTM | 1275135 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275135.svg)](https://doi.org/10.5281/zenodo.1275135) |
+| cv | 3 | SVM | 1275215 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275215.svg)](https://doi.org/10.5281/zenodo.1275215) |
+| cv | 4 |LR| 1275345 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275345.svg)](https://doi.org/10.5281/zenodo.1275345) |
+| cv | 4 | RNN | 1275347 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275347.svg)](https://doi.org/10.5281/zenodo.1275347) |
+| cv | 4 | LSTM | 1275351 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275351.svg)](https://doi.org/10.5281/zenodo.1275351) |
+| cv | 4 | SVM | 1275355 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275355.svg)](https://doi.org/10.5281/zenodo.1275355) |
 
 
 
