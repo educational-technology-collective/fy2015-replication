@@ -21,10 +21,10 @@ Note that the complete extraction-training-testing pipeline may take several hou
 
 | Experiment | Week | Model | Zenodo Deposition ID | DOI | 
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| holdout | 0 | lr  | 1275035 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275041.svg)](https://doi.org/10.5281/zenodo.1275041) |
+| holdout | 0 | lr  | 1275035 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275035.svg)](https://doi.org/10.5281/zenodo.1275035) |
 | holdout | 0 | rnn | 1275045 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275045.svg)](https://doi.org/10.5281/zenodo.1275045) |
 | holdout | 0 | svm | 1275193 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275193.svg)](https://doi.org/10.5281/zenodo.1275193) |
-| holdout | 0 | lstm | 1275041 | temp|
+| holdout | 0 | lstm | 1275041 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275041.svg)](https://doi.org/10.5281/zenodo.1275041) |
 | holdout | 1 | lr | 1275049 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275049.svg)](https://doi.org/10.5281/zenodo.1275049) |
 | holdout | 1 | lstm | 1275055 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275055.svg)](https://doi.org/10.5281/zenodo.1275055) |
 | holdout | 1 | rnn | 1275059 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275059.svg)](https://doi.org/10.5281/zenodo.1275059) |
