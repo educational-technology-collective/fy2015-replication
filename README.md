@@ -20,7 +20,7 @@ Note that the complete extraction-training-testing pipeline may take several hou
 
 
 | Experiment | Week | Model | Zenodo Deposition ID | DOI | 
-| ------------- | ------------- | ------------- | ------------- |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
 | holdout | 0 | lr  | 1275035 |temp|
 | holdout | 0 | rnn | 1275045 | temp |
 | holdout | 0 | svm | 1275193 | temp |
