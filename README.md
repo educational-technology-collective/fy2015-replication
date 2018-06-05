@@ -13,7 +13,7 @@ To execute one of the trials described here (where a trial is a specific model e
 
 ```
 from morf.utils.submit import easy_submit
-easy_submit(TODO)
+easy_submit(client_config_url="https://raw.githubusercontent.com/educational-technology-collective/fy2015-replication/master/config/holdout/week_4/svm/controller.py", email_to="your-email@example.com")
 ```
 
 Note that the complete extraction-training-testing pipeline may take several hours. Also note that if you are using a job which utilizes `fork_features()`, the job it is forking from must be executed first.
