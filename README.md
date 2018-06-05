@@ -57,9 +57,11 @@ Note that the complete extraction-training-testing pipeline may take several hou
 | cv | 3 | rnn | 1275133 | temp |
 | cv | 3 | lstm | 1275135 | temp |
 | cv | 3 | svm | 1275215 | temp |
-| cv | 4 | lr | 1275345 | temp |
-| cv | 4 | rnn | 1275347 | temp |
-| cv | 4 | lstm | 1275351 |temp |
+| cv | 4 | lr | 1275345 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275345.svg)](https://doi.org/10.5281/zenodo.1275345) |
+| cv | 4 | rnn | 1275347 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275347.svg)](https://doi.org/10.5281/zenodo.1275347)
+ |
+| cv | 4 | lstm | 1275351 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275351.svg)](https://doi.org/10.5281/zenodo.1275351)
+ |
 | cv | 4 | svm | 1275355 | [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1275355.svg)](https://doi.org/10.5281/zenodo.1275355) |
 
 
