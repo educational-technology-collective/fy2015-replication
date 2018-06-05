@@ -3,7 +3,9 @@ This repository contains the complete configuration files necessary for the repl
 
 ## Guide to the contents of this repo:
 
-`docker`: contains dockerfile and necessary scripts to build the docker image. This image can also be pulled directly from docker cloud by running `docker pull themorf/morf-public:fy2015-replication`.
+`docker`: contains dockerfile and necessary scripts to build the docker image. This image can also be pulled directly from docker cloud by running the following in a terminal (note Docker must be installed): 
+
+```docker pull themorf/morf-public:fy2015-replication```
 
 `config`: contains two subdirectories, `holdout` and `cv`, with configuration files to reproduce the experiment using the holdout and cross-validation architectures, respectively. Note that weeks are zero-indexed (so `week_0` actually uses one week of features, and `week_4` uses weeks one through five, utilizing the method described in the original Fei and Yeung paper).
 
@@ -17,6 +19,8 @@ easy_submit(client_config_url="https://raw.githubusercontent.com/educational-tec
 ```
 
 Note that the complete extraction-training-testing pipeline may take several hours. Also note that if you are using a job which utilizes `fork_features()`, the job it is forking from must be executed first.
+
+Each experiment also includes a persistent Digital Object Identifier which contains links to the `client.config` and `controller` scripts, which, along with the Docker image described above (which is common to all of the trials), fully reproduces every trial of the experiment.
 
 
 | Experiment | Week | Model | Zenodo Deposition ID | DOI | 
