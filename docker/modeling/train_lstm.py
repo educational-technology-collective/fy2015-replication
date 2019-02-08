@@ -79,9 +79,11 @@ python train_lstm.py \
 
 
 import argparse
+from keras import regularizers
 from keras.models import Sequential
 from keras.models import clone_model
 from keras.layers import Dense
+from keras.layers import Dropout
 from keras.layers import SimpleRNN
 from keras.layers import LSTM
 from keras.models import load_model
@@ -106,7 +108,7 @@ RBF_SVM_MAX_N = 30000
 LINEAR_SVM_MAX_N = 30000
 CV_SUBSAMPLING_TYPE = 1
 PARAMETER_SET_SIZE_THRESHOLD = 1500
-KERAS_MODELS = ("LSTM", "RNN")
+KERAS_MODELS = ("LSTM", "LSTM_DROPOUT", "LSTM_L1REG", "RNN")
 NON_KERAS_MODELS = ("LR", "SVM_RBF", "SVM_LINEAR")
 
 
@@ -189,6 +191,44 @@ def droprate_lstm_train(X, y, hidden_size=HIDDEN_SIZE):
     """
     model = Sequential()
     model.add(LSTM(hidden_size, input_shape=(X.shape[1], X.shape[2])))
+    model.add(Dense(1, activation='sigmoid'))
+    model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
+    print(model.summary())
+    model.fit(X, y, epochs=EPOCHS, batch_size=BATCH_SIZE)
+    return model
+
+
+def droprate_lstm_dropout_train(X, y, hidden_size=HIDDEN_SIZE):
+    """
+    Construct a LSTM model with a single dropout layer after input later to predict the type I dropout rate (See paper) from features in every week.
+    Fit the model with train data.
+    :param X: a numpy array of features, has shape ( , n_week, n_feature)
+    :param y: a numpy array of labels, has shape (N,1)
+    :param hidden_size: an integer of hidden layer size.
+    :return: model: a fitted LSTM model as keras.models.Sequential
+    """
+    model = Sequential()
+    model.add(Droput(0.2, input_shape=(X.shape[1], X.shape[2])))
+    model.add(LSTM(hidden_size))
+    model.add(Dense(1, activation='sigmoid'))
+    model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
+    print(model.summary())
+    model.fit(X, y, epochs=EPOCHS, batch_size=BATCH_SIZE)
+    return model
+
+
+def droprate_lstm_l1reg_train(X, y, hidden_size=HIDDEN_SIZE, l1_lambda=0.01):
+    """
+    Construct a LSTM model with a single dropout layer after input later to predict the type I dropout rate (See paper) from features in every week.
+    Fit the model with train data.
+    :param X: a numpy array of features, has shape ( , n_week, n_feature)
+    :param y: a numpy array of labels, has shape (N,1)
+    :param hidden_size: an integer of hidden layer size.
+    :return: model: a fitted LSTM model as keras.models.Sequential
+    """
+    model = Sequential()
+    model.add(LSTM(hidden_size, input_shape=(X.shape[1], X.shape[2]),
+                   kernel_regularizer=regularizers.l1(l1_lambda), activity_regularizer=regularizers.l1(l1_lambda)))
     model.add(Dense(1, activation='sigmoid'))
     model.compile(loss='binary_crossentropy', optimizer='sgd', metrics=['accuracy'])
     print(model.summary())
@@ -509,6 +549,10 @@ def main():
                 model = droprate_lstm_train(X, y, hidden_size)
             elif model_type == "RNN":
                 model = droprate_rnn_train(X, y, hidden_size)
+            elif model_type == "LSTM_DROPOUT":
+                model = droprate_lstm_dropout_train(X, y, hidden_size)
+            elif model_type == "LSTM_L1REG":
+                model = droprate_lstm_l1reg_train(X, y, hidden_size)
             elif model_type == "LR":
                 model = droprate_lr_train(X, y, num_fold)
             elif model_type == "SVM_RBF":
@@ -531,6 +575,10 @@ def main():
             auc_score = model_validation(droprate_lstm_train, model_type, X, y, num_fold)
         elif model_type == "RNN":
             auc_score = model_validation(droprate_rnn_train, model_type, X, y, num_fold)
+        elif model_type == "LSTM_DROPOUT":
+            auc_score = model_validation(droprate_lstm_dropout_train, model_type, X, y, num_fold)
+        elif model_type == "LSTM_L1REG":
+            auc_score = model_validation(droprate_lstm_l1reg_train, model_type, X, y, num_fold)
         elif model_type == "LR":
             auc_score = model_validation(droprate_lr_train, model_type, X, y, num_fold)
         elif model_type == "SVM_RBF":
